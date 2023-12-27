@@ -17,6 +17,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  opacity: .7;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: black;
