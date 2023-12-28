@@ -70,7 +70,6 @@ header {
   padding: 15px 50px;
   transition: all 0.3s;
   color: whitesmoke;
-  size: 60px;
 }
 
 .button-info:hover {
@@ -91,7 +90,6 @@ header {
   padding: 15px 50px;
   transition: all 0.3s;
   color: whitesmoke;
-  size: 60px;
 }
 
 .button-play:hover {
@@ -172,7 +170,7 @@ header {
   transform: translateY(-50%);
   opacity: 1;
   border: none;
-  padding: 10px;
+  padding-top: 120px;
   cursor: pointer;
   color: white;
   font-size: 1.7em;
@@ -203,7 +201,8 @@ header {
 
 h2 {
   color: white;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -225,3 +224,7 @@ footer {
   margin-right: 15px;
 }
 
+#logo-footer {
+  max-width: 40%;
+  height: auto;
+}
